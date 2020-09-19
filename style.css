@@ -1,6 +1,7 @@
 * {
-    display: flex;
     font-family: "Lato";
+    font-style: normal;
+    font-weight: normal;
     color: #FFFFFF;
     margin: 0;
     padding: 0;
@@ -16,47 +17,60 @@ body {
 }
 .header {
     width: 100%;
-    height: 100px;   
+    height: 100px; 
+    display: flex;  
 }
 .left-cloud {
-    margin-top: 55px;
-    padding-right: 161px;
+    height: 100px;
+}
+.cloudtext {
+    margin-top: -28px;
     font-size: 18px;
-    margin-left: 165px;
+    margin-left: 200px;
 }
 .img-cloud {
     width: 29px;
     height: 29px;
-    margin-top: -5px;
+    margin-top: 49px;
+    margin-left: 165px;
+    
 }
 .navbar {
+    margin-left: 160px;
     font-size: 14px;
     margin-top: 58px;
+    display: flex;
+    list-style-type: none;
+    width: 445px;
 }
 a {
     text-decoration: none;
 }
+
 li {
     padding-right:  16px;
 }
 .language {
     margin-left: 97px;
+    display: flex;
+    align-items: center;
     
 }
 .language-icon {
     width: 32px;
     height: 32px;
     margin-right: 11px;
-    margin-top: 54px;
+    margin-top: 36px;
 }
 .EN {
-    margin-top: 59px;
+    margin-top: 38px;
     font-size: 14px;
 }
 .triangle-img {
     width: 18px;
     height: 18px;
-    margin-top: 59px;
+    margin-top: 41px;
+    margin-left: 11px;
 }
 .login {
     margin-top: 50px;
@@ -64,6 +78,8 @@ li {
     margin-right: 168px;
 }
 .button-login {
+    margin-right: 165px;
+    margin-left: 15px;
     margin-top: -3px;
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
@@ -73,23 +89,36 @@ li {
     height: 40px;
     background: none;
 }
-.container {
-    display: flex;
-    margin: 257px  auto 0;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: 1400px;
-
-
+.container .title {
+    display: block;
+    margin: 200px 431px 0 431px;
+    text-align: center;
 }
-.cloudbudged-title {
-
+.title {
+    height: 600px;
+    width: 578px;
 }
-.discription-text {
-
+.cloudbudget-title {
+    font-size: 72px;
+}
+.discription-text1 {
+    margin-top: 15px;
+    font-size: 24px;
+}
+.discription-text2 {
+    margin-top: 5px;
+    font-size: 24px;
+}
+.discription-text3 {
+    margin-top: 5px;
+    font-size: 24px;
 }
 .button-sign {
-
+    margin-top: 45px;
+    border: none;
+    border-radius: 6px;
+    width: 160px;
+    height: 50px;
+    color: #ED4C5C;
+    font-size: 14px;
 }
